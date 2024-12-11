@@ -1,0 +1,64 @@
+# Checked out copy of llvm-project when building from sources
+/llvm-project
+
+# Maven
+target/
+
+# Gradle
+build/
+.gradle/
+
+# Python cache file
+*.pyc
+
+# clang-tidy
+/.clang-tidy
+
+# clangd
+/.clangd
+
+# clangd cache directory
+.cache/
+
+# IntelliJ IDEA
+*.iws
+*.iml
+*.ipr
+.idea/
+out/
+
+# Eclipse
+.classpath
+.project
+.settings
+
+# VS Code
+.vscode/
+/sonar-cfamily.code-workspace
+# VS Code default Java output directory
+bin/
+
+# CMake
+CMakeUserPresets.json
+
+# ---- Mac OS X
+.DS_Store
+Icon?
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# ---- Windows
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+# sonar
+.scannerwork
+sonar-cfamily-reproducer.zip
+sonar-cfamily-reproducer.tar.xz
+sonar-cfamily-config.json
+sonar-cfamily-config.json.lock
